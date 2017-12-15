@@ -81,7 +81,6 @@ public class CadastroActivity extends AppCompatActivity implements Validator.Val
 
     @Override
     public void onValidationSucceeded() {
-        Toast.makeText(CadastroActivity.this, "Validado com sucesso!", Toast.LENGTH_LONG).show();
 
         user = new User();
         user.setNome(Nome.getText().toString());
